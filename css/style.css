@@ -1,0 +1,155 @@
+/*CSS sobre page principal*/
+body{
+    background-color: rgb(2, 1, 1);
+    color: rgba(255, 255, 255, 0.842);
+}
+
+.logo{
+width: 200px;
+margin: 15px;
+}
+
+
+h1{
+    text-align: center;
+    text-decoration: double;
+}
+
+h2{
+    text-align: center;
+}
+
+
+.titulo_secundario{
+    font-size: large;
+    margin: 40px;
+    padding: 10px;
+}
+
+.nav-item{
+    text-align: center;
+    color: aliceblue;
+    padding: 15px;
+    margin: 20px;
+
+}
+
+/*le pedi a la IA porque no encontraba la forma de hacerlo yo*/
+.navbar .nav-link,
+.navbar .navbar-brand {
+  color: white !important; /* o el color que quieras */
+}
+
+
+
+.texto{
+    text-align: justify;
+    margin: 30px;
+
+}
+
+
+
+footer{
+    font-weight: 600;
+    text-align: center;
+    padding: 10%;
+}
+
+.redes{
+    text-align: end;
+}
+
+.logo_facebook{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+
+}
+
+.logo_ig{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+
+.logo_whatsapp{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+
+/*CSS sobre page nosotros*/
+.datos_contacto{
+    text-align: justify;
+}
+
+.listas-servicios{
+    margin: 20px;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 500px;
+}
+
+#carouselExampleCaptions{
+    margin: 30px;
+}
+
+
+/*CSS sobre page contactos*/
+.formulario{
+    display: grid;
+    grid-template-rows: 100px 100px 30px;
+    grid-template-rows: 100px;
+    margin: 30px;
+}
+
+.boton-enviar{
+    border-radius: 5px;
+    max-width: 75px;
+
+}
+
+/*CSS sobre page acceder*/
+.formulario-acceso {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    margin: 50px auto;
+    gap: 20px;
+}
+
+.usuario,
+.contraseña {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.input-usuario,
+.input-contraseña {
+    padding: 8px;
+    font-size: 1rem;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.boton-enviar {
+    padding: 10px 10px;
+    font-size: 1rem;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+
+}
+
+.boton-enviar:hover{
+    background-color: aliceblue;
+}
