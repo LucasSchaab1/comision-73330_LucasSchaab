@@ -45,7 +45,57 @@
 
         <h1 class="titulo_principal">Registro</h1>
     </header>    
-    
+
+        <div class="form_registro">
+            <form action="/submit" method="post">
+                <label for="nombre" >Nombre:</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Escriba su nombre">
+
+                <label for="apellido">Apellido:</label>
+                <input type="text" name="apellido" id="apellido" placeholder="Escriba su apellido">
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="name@example.com">
+
+                <label for="genero">Género:</label>
+                <select name="" id="">
+                    <option value="">Hombre</option>
+                    <option value="">Mujer</option>
+                    <option value="">Prefiero no decir</option>
+                </select>
+
+                <label for="continente">Continente:</label>
+                <select name="" id="">
+                    <option value="">América</option>
+                    <option value="">Asia</option>
+                    <option value="">Oceanía</option>
+                    <option value="">África</option>
+                    <option value="">Europa</option>
+                </select>
+
+                <label for="passsword">Contraseña:</label>
+                <input type="password" name="passsword" id="passsword" placeholder="Escriba su contraseña">
+            <div class="micheckbox">
+                <input type="checkbox" name="recibirinfo" id="recibirinfo">
+                <label for="recibirinfo">
+                    <p>Quiero recibir infomación de Gestoria juridica</p>
+                </label>
+            </div>
+
+            <div class="micheckbox">
+                <input type="checkbox" name="termandcond" id="termandcond">
+                <label for="termandcond">
+                    <p>Acepto los <a href="">Terminos y Condiciones</a> de Gestoria Juridica.</p>
+                </label>
+
+            </div>
+
+                <input class="boton-register" type="submit" value="Registrarse">
+
+            </form>
+
+
+        </div>
 
     <footer>
     <p>© Todos los derechos reservados.</p>

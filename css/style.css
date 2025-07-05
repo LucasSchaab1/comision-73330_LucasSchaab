@@ -139,6 +139,7 @@ footer{
 }
 
 .boton-enviar {
+    margin-top: 20px;
     padding: 10px 10px;
     font-size: 1rem;
     border: none;
@@ -153,3 +154,55 @@ footer{
 .boton-enviar:hover{
     background-color: aliceblue;
 }
+
+/*CSS sobre page Registrarse*/
+
+.form_registro{
+    width: 400px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+
+label {
+    display: block;
+    padding: 10px;
+}
+
+
+.micheckbox {
+    display: flex;
+    align-items: center;
+    padding: 10px; 
+}
+
+
+.micheckbox input{
+    width: auto; 
+    display: inline-block; 
+    margin-right: 8px;
+    outline: none;
+    border: 1px solid #007bff;
+}
+
+
+input{
+    display: block;
+    outline: none;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #007bff;
+}
+
+.boton-register{
+    padding: 10px 10px;
+    font-size: 1rem;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+}
+
+
