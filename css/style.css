@@ -14,6 +14,7 @@ h1{
     background-color: #191c1f;
     text-align: center;
     text-decoration: double;
+
 }
 
 h2{
@@ -39,7 +40,7 @@ h2{
 /**CSS de navbar**/
 .navbar .nav-link,
 .navbar .navbar-brand {
-  color: white !important; /* o el color que quieras */
+    color: white !important;
 }
 
 /**Contraste en navbar**/
@@ -219,6 +220,32 @@ input{
 
 .boton-register:hover{
     background-color: aliceblue;
+}
+
+
+
+@media (max-width: 768px) {
+    .navbar-collapse {
+        background-color: var(--azul-primario);
+        padding: 15px;
+        border-radius: 0 0 8px 8px;
+        margin-top: 10px;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    }
+    
+    .navbar-nav .nav-link {
+        margin: 5px 0;
+        display: block;
+        text-align: center;
+    }
+}
+
+.navbar-toggler {
+    border: 10px solid rgba(255,255,255,0.5);
+}
+
+.navbar-toggler:hover{
+    border: 10px solid #0056b3
 }
 
 

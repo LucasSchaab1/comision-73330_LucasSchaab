@@ -16,6 +16,7 @@
                         alt="logo gestoria integral en derecho"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                     aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class: menu-text>MENU</span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
@@ -49,13 +50,13 @@
         <div class="form_registro">
             <form action="/submit" method="post">
                 <label for="nombre" >Nombre:</label>
-                <input type="text" name="nombre" id="nombre" placeholder="Escriba su nombre">
+                <input type="text" name="nombre" id="nombre" placeholder="Escriba su nombre" required>
 
                 <label for="apellido">Apellido:</label>
-                <input type="text" name="apellido" id="apellido" placeholder="Escriba su apellido">
+                <input type="text" name="apellido" id="apellido" placeholder="Escriba su apellido" required>
 
                 <label for="email">Email:</label>
-                <input type="email" name="email" id="email" placeholder="name@example.com">
+                <input type="email" name="email" id="email" placeholder="name@example.com" required>
 
                 <label for="genero">Género:</label>
                 <select name="" id="">
@@ -74,7 +75,7 @@
                 </select>
 
                 <label for="passsword">Contraseña:</label>
-                <input type="password" name="passsword" id="passsword" placeholder="Escriba su contraseña">
+                <input type="password" name="passsword" id="passsword" placeholder="Escriba su contraseña" required>
             <div class="micheckbox">
                 <input type="checkbox" name="recibirinfo" id="recibirinfo">
                 <label for="recibirinfo">
