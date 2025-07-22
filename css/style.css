@@ -1,6 +1,6 @@
 /*CSS sobre page principal*/
 body{
-    background-color: rgb(2, 1, 1);
+    background-color: var(--gris-claro); /* Aplicado */
     color: rgba(255, 255, 255, 0.842);
 }
 
@@ -34,10 +34,15 @@ h2{
 
 }
 
-/*le pedi a la IA porque no encontraba la forma de hacerlo yo*/
+/**CSS de navbar**/
 .navbar .nav-link,
 .navbar .navbar-brand {
   color: white !important; /* o el color que quieras */
+}
+
+/**Contraste en navbar**/
+.nav-link:hover {
+    color: #0056b3 !important;
 }
 
 
@@ -53,7 +58,7 @@ h2{
 footer{
     font-weight: 600;
     text-align: center;
-    padding: 10%;
+    padding: 2%;
 }
 
 .redes{
