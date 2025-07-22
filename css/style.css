@@ -52,16 +52,13 @@ h2{
     background-color: #0056b3 !important;
 }
 
-
-
 .texto{
     text-align: justify;
     margin: 30px;
 
 }
 
-
-
+/**CSS sobre el footer**/
 footer{
     background-color: #191c1f;
     font-weight: 600;
@@ -223,7 +220,7 @@ input{
 }
 
 
-
+/**Compatibilidad con pantallas de menor tamaño**/
 @media (max-width: 768px) {
     .navbar-collapse {
         background-color: var(--azul-primario);
