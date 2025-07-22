@@ -47,6 +47,10 @@ h2{
     color: #0056b3 !important;
 }
 
+.dropdown-item:hover {
+    background-color: #0056b3 !important;
+}
+
 
 
 .texto{
