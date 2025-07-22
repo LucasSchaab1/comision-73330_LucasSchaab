@@ -1,0 +1,18 @@
+footer {
+    background-color: $dark-bg;
+    font-weight: 600;
+    text-align: center;
+    padding: 2%;
+
+    .redes {
+        text-align: end;
+    }
+
+    .logo_facebook,
+    .logo_ig,
+    .logo_whatsapp {
+        width: $icon-size;
+        height: $icon-size;
+        padding: 5px;
+    }
+}

@@ -1,0 +1,24 @@
+body {
+    background-color: $bg-color;
+    color: $text-color;
+}
+
+h1, h2 {
+    background-color: $dark-bg;
+    text-align: center;
+}
+
+h1 {
+    text-decoration: double;
+}
+
+.titulo_secundario {
+    font-size: large;
+    margin: 40px;
+    padding: 10px;
+}
+
+.texto {
+    text-align: justify;
+    margin: $spacing-medium;
+}

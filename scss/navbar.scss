@@ -1,0 +1,50 @@
+.navbar {
+    .nav-link,
+    .navbar-brand {
+        color: $white !important;
+    }
+
+    .nav-link:hover {
+        color: $hover-blue !important;
+    }
+
+    .dropdown-item:hover {
+        background-color: $hover-blue !important;
+    }
+
+    .nav-item {
+        text-align: center;
+        color: $white;
+        padding: $spacing-small;
+        margin: 20px;
+    }
+
+    .navbar-toggler {
+        border: 10px solid rgba(255,255,255,0.5);
+
+        &:hover {
+            border: 10px solid $hover-blue;
+        }
+    }
+}
+
+.logo {
+    width: $logo-width;
+    margin: $spacing-small;
+}
+
+@media (max-width: 768px) {
+    .navbar-collapse {
+        background-color: $dark-bg;
+        padding: $spacing-small;
+        border-radius: 0 0 8px 8px;
+        margin-top: 10px;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    }
+    
+    .navbar-nav .nav-link {
+        margin: 5px 0;
+        display: block;
+        text-align: center;
+    }
+}

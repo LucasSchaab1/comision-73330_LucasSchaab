@@ -1,0 +1,87 @@
+// Estilos generales de formularios
+.formulario {
+    display: grid;
+    grid-template-rows: 100px 100px 30px;
+    margin: $spacing-medium;
+}
+
+// Estilos específicos para página "acceder"
+.formulario-acceso {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    margin: 50px auto;
+    gap: 20px;
+
+    .usuario,
+    .contraseña {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .input-usuario,
+    .input-contraseña {
+        padding: 8px;
+        font-size: 1rem;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+}
+
+// Estilos para página "registrarse"
+.form_registro {
+    width: 400px;
+    padding: 10px;
+    margin: 0 auto;
+
+    label {
+        display: block;
+        padding: 10px;
+    }
+
+    input {
+        display: block;
+        outline: none;
+        width: 100%;
+        border-radius: 4px;
+        border: 1px solid $primary-blue;
+    }
+}
+
+.micheckbox {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+    input {
+        width: auto;
+        display: inline-block;
+        margin-right: 8px;
+        outline: none;
+        border: 1px solid $primary-blue;
+    }
+}
+
+// Estilos para botones
+.boton-enviar,
+.boton-register {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    background-color: $primary-blue;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $white;
+    }
+}
+
+.boton-enviar {
+    margin-top: 20px;
+    max-width: 75px;
+}
